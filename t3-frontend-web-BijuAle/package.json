@@ -1,0 +1,35 @@
+{
+  "name": "t3-frontend-web-bijuale",
+  "version": "1.0.0",
+  "description": "FrontEnd Biju's WebAPI Project",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  },
+  "scripts": {
+    "start": "node dashboard.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stw304cem/t3-frontend-web-BijuAle.git"
+  },
+  "keywords": [
+    "Front",
+    "end",
+    "Bootstrap",
+    "JQuery",
+    "Javascript"
+  ],
+  "author": "Biju Ale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stw304cem/t3-frontend-web-BijuAle/issues"
+  },
+  "homepage": "https://github.com/stw304cem/t3-frontend-web-BijuAle#readme"
+}

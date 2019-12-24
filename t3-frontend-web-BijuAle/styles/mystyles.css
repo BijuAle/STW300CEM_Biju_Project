@@ -1,0 +1,151 @@
+/*Copyright (c) 2019 BIJU ALE
+Author: BIJU ALE (github.com/BijuAle)
+License: MIT License
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+/*Fonts*/
+
+@font-face {
+    font-family: Caslon;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/ACaslonPro-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Cheltenham;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/CheltenhamBookRegular.otf) format('opentype');
+}
+
+body {
+    font-family: Caslon !important;
+    color: #049372 !important;
+    ;
+    background: url(../images/philosophia_christi.jpg) fixed;
+}
+
+#app-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#app-subtitle {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jumbotron {
+    font-family: Cheltenham;
+    background: url(../images/cartographer.png) fixed;
+    margin: 0;
+    padding: 25px 100px 0 20px;
+}
+
+.sec {
+    margin-bottom: 30px
+}
+
+a {
+    color: #5884b3;
+}
+
+.navbar {
+    margin: 0 30px 30px 30px;
+    border-bottom: 1px solid rgb(131, 24, 24);
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+li {
+    text-align: justify;
+}
+
+.navbar-dark .navbar-brand, table, th, td {
+    color: #049372;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: rgb(106, 108, 119);
+}
+
+header {
+    /* position:sticky; */
+    top: 0;
+    background: url(../images/cartographer.png) fixed;
+}
+
+/* For Index Page - Registration & Login */
+
+.index_head {
+    margin: 5%;
+    text-align: center;
+    color: #049372;
+}
+
+form {
+    margin: 0 auto;
+    width: 250px;
+}
+
+input {
+    margin-bottom: 3px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #CCC
+}
+
+button {
+    padding: 10px
+}
+
+label {
+    cursor: pointer;
+    color: #049372;
+}
+
+#form-switch {
+    display: none
+}
+
+#register-form {
+    display: none
+}
+
+#form-switch:checked~#register-form {
+    display: block
+}
+
+#form-switch:checked~#login-form {
+    display: none
+}
+
+#app-title, #app-subtitle, .contact, .contact>a {
+    color: slategray;
+}
+.contact>a:hover{
+    text-decoration: none;
+    color:silver;
+}
+
+#btn_modal{
+    display: none;
+}

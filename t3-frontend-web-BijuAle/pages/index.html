@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome to Guardians</title>
+
+    <link rel="stylesheet" href="../styles/mystyles.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+    <div class="index_head">
+      <h1>Welcome to Guardians</h1>
+      <h2>Family Geo-tracking</h2>
+    </div>
+
+    <input type="checkbox" id="form-switch" />
+    <form id="login-form">
+      <input name="username_l" id = "username_l"  type="text form_control" placeholder="Username" required />
+      <input name="password_l" id = "password_l"  type="password" placeholder="Password" required />
+      <button id="btn_login" class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Log In</button>
+      <label for="form-switch">Register.</span></label>
+    </form>
+
+    <form id="register-form">
+      <input name="firstName_r" id = "firstName_r" type="text form_control" placeholder="First Name" required />
+      <input name="lastName_r" id = "lastName_r" type="text form_control" placeholder="Last Name" required />
+      <input name="username_r" id = "username_r" type="text form_control" placeholder="Username" required />
+
+      <input name="address_r" id = "address_r" type="text form_control" placeholder="Address" required />
+      <input name="email_r" id = "email_r" type="email form_control" placeholder="Email" required />
+
+      <input name="password_r" id = "password_r"  type="password form_control" placeholder="Password" required />
+      <input type="password" form_control" placeholder="Re Password" required />
+
+      <button id = "btn_register" class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Register</button>
+      <label for="form-switch">Sign In..</label>
+    </form>
+  </body>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../js/index.js""></script>
+</html>
